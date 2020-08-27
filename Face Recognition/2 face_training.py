@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Path for face dataset
-path = 'C:\\Users\\Junu\\Desktop\\OpenCV-Face-Recognition-master\\FacialRecognition\\dataset'
+path = 'path to\\dataset'
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
