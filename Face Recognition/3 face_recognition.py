@@ -6,8 +6,8 @@ import time
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read('trainer/trainer.yml')
 
-modelFile = "C:\\Users\\Junu\\Desktop\\OpenCV-Face-Recognition-master\\models\\res10_300x300_ssd_iter_140000.caffemodel"
-configFile = "C:\\Users\\Junu\\Desktop\\OpenCV-Face-Recognition-master\\models\\deploy.prototxt.txt"
+modelFile = "path to\\res10_300x300_ssd_iter_140000.caffemodel"
+configFile = "path to\\deploy.prototxt.txt"
 net = cv2.dnn.readNetFromCaffe(configFile, modelFile)
 
 font = cv2.FONT_HERSHEY_TRIPLEX
